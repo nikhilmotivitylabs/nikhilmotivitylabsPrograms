@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;motivitylabs.Empolyee&apos; to &apos;Patients&apos;&#x0D;&#x0A;- Original project: &apos;core_java&apos;&#x0D;&#x0A;- Original element: &apos;motivitylabs.Empolyee&apos;&#x0D;&#x0A;- Renamed element: &apos;motivitylabs.Patients&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Empolyee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;motivitylabs{Empolyee.java[Empolyee" matchStrategy="1" name="Patients" qualified="false" references="true" similarDeclarations="false" stamp="1654071155699" textual="false" version="1.0"/>
+</session>

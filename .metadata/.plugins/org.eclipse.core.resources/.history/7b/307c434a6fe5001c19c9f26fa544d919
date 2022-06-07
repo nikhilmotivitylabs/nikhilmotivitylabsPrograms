@@ -1,0 +1,26 @@
+package com.hospital;
+
+public class ZeroConstrutor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Students rahul=new Students(10,50f);
+		rahul.show();
+
+	}
+
+}
+class Students{
+	int id;
+	float per;
+	Students(int id,float per){
+		this.id=id;
+		this.per=per;
+	}
+	
+	void show() {
+		System.out.println("id="+id);
+		System.out.println("per"+per);
+	}
+}

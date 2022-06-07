@@ -1,0 +1,21 @@
+package com.hospital;
+
+public class ZeroConstrutor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Students rahul=new Students(10,50f);
+		Students roa=new Students(10,90f);
+
+	}
+
+}
+class Students{
+	Students(int id,float per){
+		System.out.println("id="+id);
+		System.out.println("per="+per);
+	}
+	
+	
+}

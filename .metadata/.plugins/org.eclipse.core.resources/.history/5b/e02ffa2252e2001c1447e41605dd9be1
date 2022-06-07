@@ -1,0 +1,61 @@
+package com.hospital;
+
+public class Patients {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//upcasting
+		
+		Hospital timing=new Hospital();
+		
+		
+		System.out.println(timing.working_time(9));
+
+	}
+
+}
+class Hospital {
+	static String hospital_Name;
+	int Employee_id;
+	
+	
+	public int working_time(int startingTime) {
+		System.out.print("the Hospital Start at ");
+		
+		return startingTime;
+	}
+	
+	public void leaving_time(int leavingTime) {
+		System.out.println("the Hospital laeving Time is"+leavingTime);
+		
+	}
+	
+}
+
+class Doctor extends Hospital{
+	public int working_time(int startingTime) {
+		System.out.println("the hospital doctor come at"+startingTime);
+		return startingTime;
+	}
+	
+	public void leaving_time(int leavingTime) {
+		System.out.println("in the hospital doctor leaving time"+leavingTime);
+		
+	}
+}
+
+class nurse extends Hospital{
+	public int workingTime(int startingTime) {
+		System.out.println("in the hospital nurse laving time ");
+		return startingTime;
+	}
+	
+	public void leaving_time(int leavingTime) {
+		System.out.println("in the hospital nurse laeving time "+leavingTime);
+	}
+}
+
+class management extends Hospital{
+	
+}

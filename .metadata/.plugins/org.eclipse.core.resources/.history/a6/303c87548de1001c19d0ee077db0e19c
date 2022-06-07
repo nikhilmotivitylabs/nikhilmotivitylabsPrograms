@@ -1,0 +1,18 @@
+package motivitylabs;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EmpolyeeDetails Empolyee1=new EmpolyeeDetails();
+
+	}
+
+}
+class EmployeeDetails{
+	int id;
+	String name;
+	static String department;
+	String subject;
+	double salary;
+}

@@ -1,0 +1,31 @@
+package com.hospitalInnerclass;
+
+public class InnerClasses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Hospital Doctor1=new Hospital();
+		Doctor1.operation();
+		
+		Hospital.Nurse nurse1=Doctor1.new Nurse();
+		nurse1.ready_Room();
+
+	}
+
+}
+
+class Hospital {
+	
+	void operation() {
+		System.out.println("ready for the operations "+date);
+		
+		class Nurse{
+			String date="6 june 2022";
+			void ready_Room() {
+				System.out.println("preapare the bed for operation "+date);
+			}
+	}
+	
+	}
+}
