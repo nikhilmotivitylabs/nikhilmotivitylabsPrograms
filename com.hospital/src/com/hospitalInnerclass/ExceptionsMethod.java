@@ -11,6 +11,7 @@ public class ExceptionsMethod {
 	     j=0;
 	     
 	     try{
+	         k=i/j;
 	         
 	         for(int c=0;c<=4;c++){
 	             a[c]=c+1;
@@ -18,16 +19,18 @@ public class ExceptionsMethod {
 	         for(int value:a){
 	             System.out.println(value);
 	         }
+	         System.out.println(i-j);
+	     }
+	     catch(Exception  e){
+	         e.printStackTrace(); 
 	         
 	     }
-	     catch(ArithmeticException  e){
-	         System.out.println("cannot Divide by Zero "+e);
-	         
-	     }
-	     catch(ArrayIndexOutOfBoundsException e){
-	         System.out.println("maximum numbers can be 4 "+e);
-	     } 
-
+//	     catch(ArrayIndexOutOfBoundsException a){
+//	         System.out.println("maximum numbers can be 4 "+a);
+//	     } 
+	     
+	     System.out.println(k);
+	     System.out.println(i+j);
 	}
 
 }
